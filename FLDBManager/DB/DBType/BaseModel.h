@@ -1,10 +1,11 @@
-
+//
+//  Created by microleo on 2017/12/5.
+//  Copyright © 2017年 leo. All rights reserved.
+//
 #import <Foundation/Foundation.h>
 #import "LKDB+Mapping.h"
 #import "NSObject+LKModel.h"
 #import <objc/runtime.h>
-
-
 @interface BaseModel : NSObject
 
 @property (nonatomic) long long updateTime;

@@ -1,4 +1,7 @@
-
+//
+//  Created by microleo on 2017/12/5.
+//  Copyright © 2017年 leo. All rights reserved.
+//
 #import "DBManagerBase.h"
 #import <CoreData/CoreData.h>
 #import <pthread.h>
@@ -7,7 +10,7 @@
 #import "VersionInfo.h"
 #import "Informations.h"
 #import "AccountInfo.h"
-//定义数据名称
+//定义数据库名称
 #define SYSTEM_DATABASE_NAME_PREFIX @"microleo_system"
 #define USER_DATABASE_NAME_PREFIX @"microleo_user_v2"
 
@@ -37,7 +40,7 @@ static DBManager *_sharedInstance = nil;
                                     nil];
     
     // user db 在这里创建表
-    NSArray *userDBTables = [[NSArray alloc] initWithObjects:[GoodsShoppingOrder class],[UserInfoTemp class],nil];
+    NSArray *userDBTables = [[NSArray alloc] initWithObjects:[UserInfoTemp class],nil];
     
     _dbDef = [[NSDictionary alloc] initWithObjectsAndKeys:systemDBTables, SYSTEM_DATABASE_NAME_PREFIX, userDBTables, USER_DATABASE_NAME_PREFIX, nil];
 }

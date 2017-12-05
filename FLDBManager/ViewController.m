@@ -35,6 +35,8 @@
     
     NSLog(@"---------informationArray%@",informationArray);
     
+    
+    //
     NSLog(@"----------------version:%@",[[DBManager sharedInstance]getCurrentVersion]);
     
     UserInfoTemp *temp1 = [[UserInfoTemp alloc]init];
