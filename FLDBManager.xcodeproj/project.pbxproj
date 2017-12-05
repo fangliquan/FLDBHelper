@@ -24,9 +24,6 @@
 		0AD34B991FD66F120039A1E4 /* Informations.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AD34B6C1FD66F120039A1E4 /* Informations.m */; };
 		0AD34B9A1FD66F120039A1E4 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 0AD34B701FD66F120039A1E4 /* LICENSE */; };
 		0AD34B9B1FD66F120039A1E4 /* NSObject+LKModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AD34B751FD66F120039A1E4 /* NSObject+LKModel.m */; };
-		0AD34B9C1FD66F120039A1E4 /* NSObject+LKDBHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AD34B771FD66F120039A1E4 /* NSObject+LKDBHelper.m */; };
-		0AD34B9D1FD66F120039A1E4 /* LKDBUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AD34B781FD66F120039A1E4 /* LKDBUtils.m */; };
-		0AD34B9E1FD66F120039A1E4 /* LKDBHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AD34B791FD66F120039A1E4 /* LKDBHelper.m */; };
 		0AD34B9F1FD66F120039A1E4 /* LKDB+Mapping.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AD34B7A1FD66F120039A1E4 /* LKDB+Mapping.m */; };
 		0AD34BA01FD66F120039A1E4 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 0AD34B7D1FD66F120039A1E4 /* README.md */; };
 		0AD34BA11FD66F120039A1E4 /* DBManagerBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AD34B801FD66F120039A1E4 /* DBManagerBase.m */; };
@@ -39,6 +36,9 @@
 		0AD34BA91FD66F120039A1E4 /* FMResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AD34B911FD66F120039A1E4 /* FMResultSet.m */; };
 		0AD34BAE1FD66FEA0039A1E4 /* GCDMulticastDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AD34BAD1FD66FEA0039A1E4 /* GCDMulticastDelegate.m */; };
 		0AD34BB51FD670C90039A1E4 /* PublicUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AD34BB21FD670C80039A1E4 /* PublicUtil.m */; };
+		0AD34BC31FD69F440039A1E4 /* NSObject+LKDBHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AD34BBE1FD69F430039A1E4 /* NSObject+LKDBHelper.m */; };
+		0AD34BC41FD69F440039A1E4 /* LKDBHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AD34BC01FD69F440039A1E4 /* LKDBHelper.m */; };
+		0AD34BC51FD69F440039A1E4 /* LKDBUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AD34BC11FD69F440039A1E4 /* LKDBUtils.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -91,16 +91,10 @@
 		0AD34B6C1FD66F120039A1E4 /* Informations.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Informations.m; sourceTree = "<group>"; };
 		0AD34B6E1FD66F120039A1E4 /* DBManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DBManager.h; sourceTree = "<group>"; };
 		0AD34B701FD66F120039A1E4 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
-		0AD34B731FD66F120039A1E4 /* LKDBHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LKDBHelper.h; sourceTree = "<group>"; };
-		0AD34B741FD66F120039A1E4 /* LKDBUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LKDBUtils.h; sourceTree = "<group>"; };
 		0AD34B751FD66F120039A1E4 /* NSObject+LKModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+LKModel.m"; sourceTree = "<group>"; };
 		0AD34B761FD66F120039A1E4 /* LKDB+Mapping.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "LKDB+Mapping.h"; sourceTree = "<group>"; };
-		0AD34B771FD66F120039A1E4 /* NSObject+LKDBHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+LKDBHelper.m"; sourceTree = "<group>"; };
-		0AD34B781FD66F120039A1E4 /* LKDBUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LKDBUtils.m; sourceTree = "<group>"; };
-		0AD34B791FD66F120039A1E4 /* LKDBHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LKDBHelper.m; sourceTree = "<group>"; };
 		0AD34B7A1FD66F120039A1E4 /* LKDB+Mapping.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "LKDB+Mapping.m"; sourceTree = "<group>"; };
 		0AD34B7B1FD66F120039A1E4 /* NSObject+LKModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+LKModel.h"; sourceTree = "<group>"; };
-		0AD34B7C1FD66F120039A1E4 /* NSObject+LKDBHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+LKDBHelper.h"; sourceTree = "<group>"; };
 		0AD34B7D1FD66F120039A1E4 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		0AD34B7F1FD66F120039A1E4 /* DBManagerDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DBManagerDelegate.h; sourceTree = "<group>"; };
 		0AD34B801FD66F120039A1E4 /* DBManagerBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DBManagerBase.m; sourceTree = "<group>"; };
@@ -123,6 +117,12 @@
 		0AD34BB01FD670C80039A1E4 /* PublicUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PublicUtil.h; sourceTree = "<group>"; };
 		0AD34BB21FD670C80039A1E4 /* PublicUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PublicUtil.m; sourceTree = "<group>"; };
 		0AD34BB61FD6738B0039A1E4 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		0AD34BBD1FD69F430039A1E4 /* LKDBUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LKDBUtils.h; sourceTree = "<group>"; };
+		0AD34BBE1FD69F430039A1E4 /* NSObject+LKDBHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+LKDBHelper.m"; sourceTree = "<group>"; };
+		0AD34BBF1FD69F440039A1E4 /* LKDBHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LKDBHelper.h; sourceTree = "<group>"; };
+		0AD34BC01FD69F440039A1E4 /* LKDBHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LKDBHelper.m; sourceTree = "<group>"; };
+		0AD34BC11FD69F440039A1E4 /* LKDBUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LKDBUtils.m; sourceTree = "<group>"; };
+		0AD34BC21FD69F440039A1E4 /* NSObject+LKDBHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+LKDBHelper.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -264,16 +264,16 @@
 		0AD34B721FD66F120039A1E4 /* Helper */ = {
 			isa = PBXGroup;
 			children = (
-				0AD34B731FD66F120039A1E4 /* LKDBHelper.h */,
-				0AD34B741FD66F120039A1E4 /* LKDBUtils.h */,
-				0AD34B751FD66F120039A1E4 /* NSObject+LKModel.m */,
+				0AD34BBF1FD69F440039A1E4 /* LKDBHelper.h */,
+				0AD34BC01FD69F440039A1E4 /* LKDBHelper.m */,
+				0AD34BBD1FD69F430039A1E4 /* LKDBUtils.h */,
+				0AD34BC11FD69F440039A1E4 /* LKDBUtils.m */,
+				0AD34BC21FD69F440039A1E4 /* NSObject+LKDBHelper.h */,
+				0AD34BBE1FD69F430039A1E4 /* NSObject+LKDBHelper.m */,
 				0AD34B761FD66F120039A1E4 /* LKDB+Mapping.h */,
-				0AD34B771FD66F120039A1E4 /* NSObject+LKDBHelper.m */,
-				0AD34B781FD66F120039A1E4 /* LKDBUtils.m */,
-				0AD34B791FD66F120039A1E4 /* LKDBHelper.m */,
 				0AD34B7A1FD66F120039A1E4 /* LKDB+Mapping.m */,
 				0AD34B7B1FD66F120039A1E4 /* NSObject+LKModel.h */,
-				0AD34B7C1FD66F120039A1E4 /* NSObject+LKDBHelper.h */,
+				0AD34B751FD66F120039A1E4 /* NSObject+LKModel.m */,
 			);
 			path = Helper;
 			sourceTree = "<group>";
@@ -299,17 +299,17 @@
 		0AD34B861FD66F120039A1E4 /* fmdb */ = {
 			isa = PBXGroup;
 			children = (
+				0AD34B8E1FD66F120039A1E4 /* FMDB.h */,
 				0AD34B871FD66F120039A1E4 /* FMDatabase.h */,
-				0AD34B881FD66F120039A1E4 /* FMDatabaseQueue.m */,
-				0AD34B891FD66F120039A1E4 /* FMResultSet.h */,
-				0AD34B8A1FD66F120039A1E4 /* FMDatabasePool.h */,
-				0AD34B8B1FD66F120039A1E4 /* FMDatabaseAdditions.m */,
 				0AD34B8C1FD66F120039A1E4 /* FMDatabase.m */,
 				0AD34B8D1FD66F120039A1E4 /* FMDatabaseQueue.h */,
-				0AD34B8E1FD66F120039A1E4 /* FMDB.h */,
-				0AD34B8F1FD66F120039A1E4 /* FMDatabaseAdditions.h */,
-				0AD34B901FD66F120039A1E4 /* FMDatabasePool.m */,
+				0AD34B881FD66F120039A1E4 /* FMDatabaseQueue.m */,
+				0AD34B891FD66F120039A1E4 /* FMResultSet.h */,
 				0AD34B911FD66F120039A1E4 /* FMResultSet.m */,
+				0AD34B8A1FD66F120039A1E4 /* FMDatabasePool.h */,
+				0AD34B901FD66F120039A1E4 /* FMDatabasePool.m */,
+				0AD34B8F1FD66F120039A1E4 /* FMDatabaseAdditions.h */,
+				0AD34B8B1FD66F120039A1E4 /* FMDatabaseAdditions.m */,
 			);
 			path = fmdb;
 			sourceTree = "<group>";
@@ -469,7 +469,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0AD34B9C1FD66F120039A1E4 /* NSObject+LKDBHelper.m in Sources */,
 				0AD34B9F1FD66F120039A1E4 /* LKDB+Mapping.m in Sources */,
 				0AD34BA71FD66F120039A1E4 /* FMDatabase.m in Sources */,
 				0AD34BAE1FD66FEA0039A1E4 /* GCDMulticastDelegate.m in Sources */,
@@ -483,13 +482,14 @@
 				0AD34BA11FD66F120039A1E4 /* DBManagerBase.m in Sources */,
 				0AD34B991FD66F120039A1E4 /* Informations.m in Sources */,
 				0AD34B961FD66F120039A1E4 /* SystemInfo.m in Sources */,
+				0AD34BC51FD69F440039A1E4 /* LKDBUtils.m in Sources */,
 				0AD34B9B1FD66F120039A1E4 /* NSObject+LKModel.m in Sources */,
-				0AD34B9E1FD66F120039A1E4 /* LKDBHelper.m in Sources */,
 				0AD34B951FD66F120039A1E4 /* VersionInfo.m in Sources */,
 				0AD34B971FD66F120039A1E4 /* DBManager+SystemInfo.m in Sources */,
-				0AD34B9D1FD66F120039A1E4 /* LKDBUtils.m in Sources */,
 				0AD34BA61FD66F120039A1E4 /* FMDatabaseAdditions.m in Sources */,
 				0AD34B341FD66E200039A1E4 /* FLDBManager.xcdatamodeld in Sources */,
+				0AD34BC41FD69F440039A1E4 /* LKDBHelper.m in Sources */,
+				0AD34BC31FD69F440039A1E4 /* NSObject+LKDBHelper.m in Sources */,
 				0AD34B981FD66F120039A1E4 /* AccountInfo.m in Sources */,
 				0AD34BA51FD66F120039A1E4 /* FMDatabaseQueue.m in Sources */,
 			);
